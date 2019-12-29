@@ -1,0 +1,31 @@
+@import 'button.scss';
+$primarycolor: rgb(202, 31, 131);
+$secondarycolor: rgb(150, 20, 45);
+
+$fontfamilyOne: 'Dosis';
+$fontfamilySecond: '';
+
+body {
+    background-color: $primarycolor;
+}
+
+p {
+    background-color: $secondarycolor;
+    font-family: $fontfamilyOne;
+}
+
+h1 {
+    font-family: 'helvetica', 'times new roman', 'cursive';
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
