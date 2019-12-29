@@ -15,12 +15,22 @@ html {
 }
 
 body {
+    background-color: $sixiemeCouleur;
     color: $dixiemeCouleur;
     font: 2em sans-serif;
 }
 
-ul, li {
-    list-style-type: none;
+.container {
+    padding-left: -40px;
+}
+
+ul {
+    margin: 0;
+    
+
+    li {
+        list-style-type: none;
+    }
 }
 
 p {
@@ -46,6 +56,15 @@ h4 {
 
 }
 
+
+
 .navbar {
     color: blue;
+}
+
+.logo {
+    font-family: $fontfamilykaushan;
+    font-size: 3em;
+    color: green;
+    margin: 20px 25px 0 20px;
 }
