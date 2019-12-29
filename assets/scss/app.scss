@@ -1,21 +1,37 @@
-@import 'button.scss';
-$primarycolor: rgb(202, 31, 131);
-$secondarycolor: rgb(150, 20, 45);
+@import "~bootstrap/scss/bootstrap";
+@import './button.scss';
+@import './layouts/variables';
 
-$fontfamilyOne: 'Dosis';
-$fontfamilySecond: '';
+
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
 
 body {
-    background-color: $primarycolor;
+    color: $dixiemeCouleur;
+    font: 2em sans-serif;
+}
+
+ul, li {
+    list-style-type: none;
 }
 
 p {
-    background-color: $secondarycolor;
-    font-family: $fontfamilyOne;
+    font-family: $fontfamilyCursivetwo;
+    color: $dixiemeCouleur;
+    font-size: 1.9rem;
 }
 
 h1 {
-    font-family: 'helvetica', 'times new roman', 'cursive';
+    font-family: $fontfamilyCursive;
+    color: $dixiemeCouleur;
 }
 
 h2 {
@@ -28,4 +44,8 @@ h3 {
 
 h4 {
 
+}
+
+.navbar {
+    color: blue;
 }

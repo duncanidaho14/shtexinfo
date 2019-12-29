@@ -8,20 +8,20 @@
 // any CSS you require will output into a single css file (app.css in this case)
 
 // Need jQuery? Install it with "yarn add jquery", then uncomment to require it.
+
+import "./../scss/app.scss";
 const $ = require("jquery");
-import './../../node_modules/popper.js/dist/popper';
-import './../../node_modules/bootstrap/dist/css/bootstrap.css';
-import './../../node_modules/bootstrap/dist/js/bootstrap';
+import 'bootstrap';
 
 import * as React from "react";
 import { render } from "react-dom";
-import "../scss/app.scss";
+
 
 import './index';
 import './Counter';
 
 
-function hello(): any {
+function hello() {
   let name = "elhad";
 
   console.log("salut " + name);
