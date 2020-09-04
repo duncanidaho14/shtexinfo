@@ -7,7 +7,7 @@
         "autoprefixer": "^9.7.3",
         "core-js": "^3.0.0",
         "fork-ts-checker-webpack-plugin": "0.4.1",
-        "node-sass": "^4.13.0",
+        "node-sass": "^4.13.1",
         "postcss-loader": "^3.0.0",
         "regenerator-runtime": "^0.13.2",
         "sass-loader": "7.0.1",
